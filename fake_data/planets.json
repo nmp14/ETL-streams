@@ -1,0 +1,47 @@
+[
+    {
+        "pl_hostname": "GJ 3341",
+        "pl_letter": "b",
+        "pl_name": "GJ 3341 b",
+        "pl_discmethod": "Radial Velocity",
+        "pl_controvflag": 0,
+        "pl_pnum": 1,
+        "pl_orbper": 14.207,
+        "pl_orbpererr1": 0.007,
+        "pl_orbpererr2": -0.007,
+        "pl_orbperlim": 0,
+        "pl_orbpern": 1,
+        "rowupdate": "2014-12-03",
+        "pl_facility": "La Silla Observatory"
+      },
+      {
+        "pl_hostname": "GJ 3342",
+        "pl_letter": "c",
+        "pl_name": "GJ 3342 c",
+        "pl_discmethod": "Radial Velocity",
+        "pl_controvflag": 0,
+        "pl_pnum": 1,
+        "pl_orbper": 14.200,
+        "pl_orbpererr1": 0.007,
+        "pl_orbpererr2": -0.007,
+        "pl_orbperlim": 0,
+        "pl_orbpern": 1,
+        "rowupdate": "2015-01-05",
+        "pl_facility": "La Silla Observatory"
+      },
+      {
+        "pl_hostname": "GJ 3343",
+        "pl_letter": "d",
+        "pl_name": "GJ 3343 d",
+        "pl_discmethod": "Radial Velocity",
+        "pl_controvflag": 0,
+        "pl_pnum": 1,
+        "pl_orbper": 19.502,
+        "pl_orbpererr1": 0.007,
+        "pl_orbpererr2": -0.007,
+        "pl_orbperlim": 0,
+        "pl_orbpern": 1,
+        "rowupdate": "2014-12-03",
+        "pl_facility": "La Silla Observatory"
+      }
+]

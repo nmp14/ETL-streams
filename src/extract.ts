@@ -1,16 +1,13 @@
-const rp = require("request-promise");
+// const rp = require("request-promise");
+const data = require ("../fake_data/planets");
 
-const EXO_API_URL = "https://exoplanetarchive.ipac.caltech.edu/cgi-bin/nstedAPI/nph-nstedAPI?table=ML";
+// Api is currently not giving data anymore. Just use json data.
+// const EXO_API_URL = "https://exoplanetarchive.ipac.caltech.edu/cgi-bin/nstedAPI/nph-nstedAPI?table=ML";
 
-const getAllPlanets = () =>
-  rp({
-    uri: EXO_API_URL,
-    method: "GET",
-    qs: {
-      table: "exoplanets",
-      format: "json"
-    },
-    json: true
-  });
+const getAllPlanets = () => {
+    return new Promise((resolve, reject) => {
+        resolve(data);
+    });
+};
 
 export { getAllPlanets };

@@ -4,7 +4,6 @@ import { getAllPlanets } from "./extract";
 const startETLPipeline = async () => {
     try {
         const planets: any = await getAllPlanets();
-        console.log(planets);
         console.log(`Extracted ${planets.length} planets from the API`);
     
         // TODO Transform step
